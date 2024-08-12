@@ -1,1 +1,1 @@
-export const MENU_LIST = ["transition", "page-transition", "moving-card"];
+export const MENU_LIST = ["swiper", "moving-card", "accordian"];
