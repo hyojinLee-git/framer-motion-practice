@@ -9,11 +9,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Transition from "./pages/Transition";
+import MovingCard from "./pages/MovingCard/index.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} errorElement={<div>not found</div>}>
       <Route path="/transition" element={<Transition />} />
+      <Route path="/moving-card" element={<MovingCard />} />
     </Route>,
   ),
 );
